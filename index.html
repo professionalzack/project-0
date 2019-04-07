@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PROJECT ZERO - ZACKLAND</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/Screen Shot 2019-04-07 at 4.37.54 PM.png" alt="the author standing in front of an old van's open hood in mock anger" srcset="">
+                <h3 class="my-name" id="myName">Zack</h3>
+            </div>
+            <h3 class="pause-button" id="pauseButton">Pause Slideshow</h3>
+            <ul class="top-navbar">
+                <li class="nav-item" id="navItem"><a href="#about" class="nav-link" id="navLink">About</a></li>
+                <li class="nav-item" id="navItem"><a href="#contact" class="nav-link" id="navLink">Contact</a></li>
+                <li class="nav-item" id="navItem"><a href="#contact" class="nav-link" id="navLink">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="slider">
+            <div class="slide-nav">
+                <div class="flex-margin"></div>
+                <div class="arrows"><button class="left-arrow"><span class="left-arrow arrow-button" id="arrow1">❮</span></button><button class="right-button arrow-button" id="arrow-1">❯</button></div>
+                <div class="balls">
+                    <div class="ball" id="ball0"></div>
+                    <div class="ball" id="ball1"></div>
+                    <div class="ball" id="ball2"></div>
+                    <div class="ball" id="ball3"></div>
+                    <div class="ball" id="ball4"></div>
+                    <div class="ball" id="ball5"></div>
+                </div>
+                <div class="slide-screen">
+                    <div class="film-flex" id="filmReel">
+                        <div class="slide-frame" id="frame1"><button class="modal-button" id="modButton1"></button></div>
+                        <div class="slide-frame" id="frame2"><button class="modal-button" id="modButton2"></button></div>
+                        <div class="slide-frame" id="frame3"><button class="modal-button" id="modButton3"></button></div>
+                        <div class="slide-frame" id="frame4"><button class="modal-button" id="modButton4"></button></div>
+                        <div class="slide-frame" id="frame5"><button class="modal-button" id="modButton5"></button></div>
+                        <div class="slide-frame" id="frame6"><button class="modal-button" id="modButton6"></button></div>
+                    </div>
+                </div>
+            </div>
+            <main>
+                <section class="hero">
+                    <h2 class="landing">this is the hero area</h2>
+                </section>
+                <section class="about" id="about">
+                    <div class="quote-block">
+                        <div class="stars"></div>
+                        <div class="quotes">this is where the quotes will be</div>
+                    </div>
+                    <p class="about-me"></p>
+                </section>
+                <section class="contact">
+                    <form action="" method="get">
+                        <div class="name-form">
+                            <label for="name">Name</label><input type="text" name="Name" id="name">
+                            <h6 class="warning" id="nameWarning">Full name thanks!</h6>
+                        </div>
+                        <div class="email-form">
+                            <label for="email">Email:</label><input type="email" name="email" id="email">
+                            <h6 class="warning" id="emailWarning">Real email please!</h6>
+                        </div>
+                        <div class="message-form">
+                            <label for="message">Message</label><textarea name="Message" id="message" cols="30" rows="10">this will be the message text area</textarea>
+                            <div class="form-button"><button type="submit">Submit</button></div>
+                        </div>
+                    </form>
+                    <footer>
+                        <div class="socials"></div>
+                        <div class="copyw">© Zachary Paris Suess</div>
+                    </footer>
+                </section>
+            </main>
+        </section>
+    </header>
+</body>
+</html>
